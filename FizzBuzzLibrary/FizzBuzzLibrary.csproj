@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="FizzBuzzRenderer.cs" />
     <Compile Include="FizzBuzzLooper.cs" />
+    <Compile Include="Rules\FizzRule.cs" />
+    <Compile Include="Rules\IRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

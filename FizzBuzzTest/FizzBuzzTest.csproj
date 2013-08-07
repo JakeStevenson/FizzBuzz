@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rules\TestBuzzRule.cs" />
+    <Compile Include="Rules\TestFizzRule.cs" />
     <Compile Include="TestRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestLooper.cs" />
