@@ -2,20 +2,16 @@
 {
     public class FizzRule : IRule
     {
-        public int Number { get { return 3; }}
-
         public string ProcessRule(int i)
         {
-            return i % Number == 0 ? "Fizz" : null;
+            return i % 3 == 0 ? "Fizz" : null;
         }
     }
     public class BuzzRule : IRule
     {
-        public int Number { get { return 5; }}
-
         public string ProcessRule(int i)
         {
-            return i % Number == 0 ? "Buzz" : null;
+            return i % 5 == 0 ? "Buzz" : null;
         }
     }
 }

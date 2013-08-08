@@ -16,7 +16,7 @@ namespace FizzBuzzLibrary
         }
         public FizzBuzzRenderer(IEnumerable<IRule> rules)
         {
-            _rules = rules.OrderBy(r => r.Number);
+            _rules = rules;
         }
         public virtual string FizzBuzzOutput(int i)
         {
